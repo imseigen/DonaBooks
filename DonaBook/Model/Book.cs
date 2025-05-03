@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DonaBook.Model
+namespace Kpl_tubes.Model
 {
+    // ENUMS
     public enum Genre
     {
         Fiction,
@@ -53,6 +51,23 @@ namespace DonaBook.Model
         public string? Review { get; set; }
         public int Rating { get; set; }
 
+        // Constructor tanpa parameter untuk Swagger dan deserialisasi
+        public Book() { }
+
+        // Constructor utama dengan logika rating default
+        public Book(string title, string publisher, Genre genre, string author, Category category, BookCondition condition, int quantity, int donorId)
+        {
+            Title = title;
+            Publisher = publisher;
+            Genre = genre;
+            Author = author;
+            Category = category;
+            Condition = condition;
+            Quantity = quantity;
+            IsVerified = false;
+            Rating = GenreDefaultRatings.ContainsKey(genre) ? GenreDefaultRatings[genre] : 0;
+        }
+
         // Table-driven rating default berdasarkan genre
         private static readonly Dictionary<Genre, int> GenreDefaultRatings = new()
         {
@@ -67,19 +82,5 @@ namespace DonaBook.Model
             { Genre.SelfHelp, 3 },
             { Genre.History, 4 }
         };
-
-        public Book(string title, string publisher, Genre genre, string author, Category category, BookCondition condition, int quantity, int donorId)
-        {
-            Title = title;
-            Publisher = publisher;
-            Genre = genre;
-            Author = author;
-            Category = category;
-            Condition = condition;
-            Quantity = quantity;
-            IsVerified = false;
-
-            Rating = GenreDefaultRatings.ContainsKey(genre) ? GenreDefaultRatings[genre] : 0;
-        }
     }
 }

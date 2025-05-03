@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Idan\\.nuget\\packages\\": {},
+    "C:\\Users\\Naufal\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\DonaBook.csproj",
+      "projectUniqueName": "C:\\Users\\Naufal\\Documents\\APL\\DonaBooks\\DonaBook\\DonaBook.csproj",
       "projectName": "DonaBook",
-      "projectPath": "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\DonaBook.csproj",
-      "packagesPath": "C:\\Users\\Idan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\obj\\",
+      "projectPath": "C:\\Users\\Naufal\\Documents\\APL\\DonaBooks\\DonaBook\\DonaBook.csproj",
+      "packagesPath": "C:\\Users\\Naufal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Naufal\\Documents\\APL\\DonaBooks\\DonaBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Idan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Naufal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
