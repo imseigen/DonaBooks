@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DonaBook\\DonaBook\\DonaBook.csproj": {}
+    "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\DonaBook.csproj": {}
   },
   "projects": {
-    "C:\\DonaBook\\DonaBook\\DonaBook.csproj": {
+    "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\DonaBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DonaBook\\DonaBook\\DonaBook.csproj",
+        "projectUniqueName": "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\DonaBook.csproj",
         "projectName": "DonaBook",
-        "projectPath": "C:\\DonaBook\\DonaBook\\DonaBook.csproj",
-        "packagesPath": "C:\\Users\\abiza\\.nuget\\packages\\",
-        "outputPath": "C:\\DonaBook\\DonaBook\\obj\\",
+        "projectPath": "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\DonaBook.csproj",
+        "packagesPath": "C:\\Users\\Idan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Idan\\Documents\\Jidan\\College\\Semester 4\\Konstruksi Perangkat Lunak\\DonaBooks\\DonaBook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\abiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Idan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
