@@ -1,0 +1,6 @@
+@DonaBookApi_HostAddress = http://localhost:5141
+
+GET {{DonaBookApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
